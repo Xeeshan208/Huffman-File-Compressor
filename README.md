@@ -8,7 +8,7 @@
 
 ### File Selected
 
-![File Selected](Screenshots/FileSeleted.png)
+![File Selected](Screenshots/Fileseleted.png)
 
 ---
 
