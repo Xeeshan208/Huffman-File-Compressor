@@ -2,7 +2,7 @@
 
 ### Main GUI
 
-![GUI](Screenshots/GUI_Home_page.png)
+![GUI](Screenshots/Home_page.png)
 
 ---
 
