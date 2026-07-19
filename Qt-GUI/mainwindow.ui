@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+    background-color:#eef2f7;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>40</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Input File:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>70</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Output File:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>210</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Status:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtInput">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>29</y>
+      <width>113</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+    background:white;
+    border:2px solid #90CAF9;
+    border-radius:5px;
+    padding:5px;
+    font-size:12pt;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtOutput">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>70</y>
+      <width>113</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+    background:white;
+    border:2px solid #90CAF9;
+    border-radius:5px;
+    padding:5px;
+    font-size:12pt;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBrowse">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>30</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background-color:#1976D2;
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+    border-radius:8px;
+    padding:8px;
+}
+
+QPushButton:hover{
+    background-color:#1565C0;
+}
+
+QPushButton:pressed{
+    background-color:#0D47A1;
+}</string>
+    </property>
+    <property name="text">
+     <string>Browse</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCompress">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>130</y>
+      <width>80</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background-color:#1976D2;
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+    border-radius:8px;
+    padding:8px;
+}
+
+QPushButton:hover{
+    background-color:#1565C0;
+}
+
+QPushButton:pressed{
+    background-color:#0D47A1;
+}</string>
+    </property>
+    <property name="text">
+     <string>Compress</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDecompress">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>130</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    background-color:#1976D2;
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+    border-radius:8px;
+    padding:8px;
+}
+
+QPushButton:hover{
+    background-color:#1565C0;
+}
+
+QPushButton:pressed{
+    background-color:#0D47A1;
+}</string>
+    </property>
+    <property name="text">
+     <string>Decompress</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtStatus">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>250</y>
+      <width>141</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit{
+    background:white;
+    border:2px solid gray;
+    border-radius:8px;
+    font-size:11pt;
+}</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
