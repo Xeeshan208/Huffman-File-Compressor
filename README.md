@@ -8,7 +8,7 @@
 
 ### File Selected
 
-![File Selected](Screenshots/File_Seleted.png)
+![File Selected](Screenshots/FileSeleted.png)
 
 ---
 
@@ -26,4 +26,4 @@
 
 ### Generated Files
 
-![Generated Files](Screenshots/Files_generated.png)
+![Generated Files](Screenshots/Filesgenerated.png)
