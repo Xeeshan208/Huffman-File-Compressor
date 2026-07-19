@@ -2,13 +2,13 @@
 
 ### Main GUI
 
-![GUI](Screenshots/GUI_Home.png)
+![GUI](Screenshots/GUI_Home_page.png)
 
 ---
 
 ### File Selected
 
-![File Selected](Screenshots/File_Selected.png)
+![File Selected](Screenshots/File_Seleted.png)
 
 ---
 
@@ -26,4 +26,4 @@
 
 ### Generated Files
 
-![Generated Files](Screenshots/Generated_Files.png)
+![Generated Files](Screenshots/Files_generated.png)
